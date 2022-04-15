@@ -9,10 +9,6 @@ import 'package:ui_color_picker/src/splash_screen.dart';
 import 'material_page_home.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
   runApp(const MyApp());
 }
 
@@ -35,7 +31,9 @@ class _MyAppState extends State<MyApp> {
   void initializeFlutterFire() async {
     try {
       // Wait for Firebase to initialize and set `_initialized` state to true
-      await Firebase.initializeApp();
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
 
       setState(() {
         _initialized = true;

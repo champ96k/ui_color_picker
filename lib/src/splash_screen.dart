@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text("Error"),
+          child: CircularProgressIndicator(color: Colors.red),
         ),
       ),
     );
