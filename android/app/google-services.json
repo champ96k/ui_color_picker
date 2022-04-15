@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30898761140",
+    "project_id": "ui-color-picker-50342",
+    "storage_bucket": "ui-color-picker-50342.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30898761140:android:545c9e3b801519d64d16e1",
+        "android_client_info": {
+          "package_name": "com.example.ui_color_picker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30898761140-l3os6je49ht665nvjopll4qhl5vmm3lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkL1UXhZLyiAcXEo4YHRrp4tskLP6XHDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30898761140-l3os6je49ht665nvjopll4qhl5vmm3lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
