@@ -18,20 +18,18 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: flutter build
+    name: flutter build Web
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    env:
-      JAVA_VERSION: "11.0"
-      FLUTTER_VERSION: "2.10.4"
+     
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-java@v1
-        with:
-          java-version: $
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: $
+          flutter-version: '2.10.4'
+          channel: 'stable'
+
+      - run: flutter --version
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test
