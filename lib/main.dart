@@ -1,7 +1,12 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:get_it/get_it.dart';
 import 'package:navigation_history_observer/navigation_history_observer.dart';
+import 'package:ui_color_picker/core/config/service_locator.dart';
+import 'package:ui_color_picker/core/repository/color_repository_imp.dart';
+import 'package:ui_color_picker/features/solid_color/bloc/color_bloc.dart';
 import 'package:ui_color_picker/firebase_options.dart';
 import 'package:ui_color_picker/src/error_screen.dart';
 import 'package:ui_color_picker/src/splash_screen.dart';
@@ -34,6 +39,7 @@ class _MyAppState extends State<MyApp> {
       await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform,
       );
+      serviceLocator();
 
       setState(() {
         _initialized = true;
@@ -70,7 +76,17 @@ class _MyAppState extends State<MyApp> {
           observer,
           NavigationHistoryObserver()
         ],
-        home: const MaterialPageHome(),
+        home: BlocProvider<ColorBloc>(
+          create: (context) => ColorBloc(
+            repository: GetIt.I<ColorRepositoryImp>(),
+          ),
+          child: Builder(
+            builder: (context) {
+              context.read<ColorBloc>().add(MostUsedColorEvents());
+              return const MaterialPageHome();
+            },
+          ),
+        ),
       );
     }
   }
