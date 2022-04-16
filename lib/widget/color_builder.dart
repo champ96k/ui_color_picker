@@ -32,81 +32,144 @@ class _ColorBuilderState extends State<ColorBuilder> {
           style: _textTheme.headline6!,
         ),
         SizedBox(height: _size.height * 0.02),
-        GridView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 6,
-            crossAxisSpacing: _size.width * 0.01,
-            mainAxisSpacing: 0.0,
-            childAspectRatio: 9 / 19,
-          ),
-          itemCount: widget.models.length,
-          itemBuilder: (BuildContext context, int index) {
-            final _model = widget.models[index];
-            return MouseRegion(
-              onHover: (event) {
-                setState(() {
-                  _currentIndex = index;
-                });
-              },
-              onExit: (event) {
-                setState(() {
-                  _currentIndex = index;
-                });
-              },
-              opaque: true,
-              cursor: SystemMouseCursors.click,
-              child: GestureDetector(
-                onTap: () {
-                  final snackBar = SnackBar(
-                    content: Text(
-                      "${widget.models[index].hex} copy ✅",
-                      textAlign: TextAlign.center,
-                    ),
-                  );
-                  FlutterClipboard.copy(widget.models[index].hex).then((value) {
-                    ScaffoldMessenger.of(context).showSnackBar(snackBar);
-                  });
-                },
-                child: AnimatedContainer(
-                  duration: const Duration(milliseconds: 100),
-                  padding: EdgeInsets.symmetric(
-                    vertical: _currentIndex == index ? 0.0 : 20.0,
-                    horizontal: _currentIndex == index ? 0.0 : 6.0,
-                  ),
-                  child: Column(
-                    children: [
-                      Expanded(
-                        flex: 9,
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Color(int.parse(_model.hex)),
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
+        LayoutBuilder(
+          builder: (_, constrains) {
+            return GridView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: (constrains.maxWidth > 1000)
+                    ? 6
+                    : (constrains.maxWidth < 1000 && constrains.maxWidth > 750)
+                        ? 4
+                        : (constrains.maxWidth > 100 &&
+                                constrains.maxWidth < 500)
+                            ? 2
+                            : 2,
+                crossAxisSpacing: _size.width * 0.01,
+                mainAxisSpacing: 0.0,
+                childAspectRatio: 9 / 19,
+              ),
+              itemCount: widget.models.length,
+              itemBuilder: (BuildContext context, int index) {
+                final _model = widget.models[index];
+                return MouseRegion(
+                  onHover: (event) {
+                    setState(() {
+                      _currentIndex = index;
+                    });
+                  },
+                  onExit: (event) {
+                    setState(() {
+                      _currentIndex = index;
+                    });
+                  },
+                  opaque: true,
+                  cursor: SystemMouseCursors.click,
+                  child: GestureDetector(
+                    onTap: () {
+                      String snackBarText = '';
+
+                      if (widget.models[index].hex != null) {
+                        snackBarText = widget.models[index].hex!;
+                      } else if (widget.models[index].gradient != null) {
+                        for (int i = 0;
+                            i < widget.models[index].gradient!.length;
+                            i++) {
+                          if (widget.models[index].gradient?[i] != null) {
+                            snackBarText = snackBarText +
+                                widget.models[index].gradient?[i] +
+                                ' ';
+                          }
+                        }
+                      }
+
+                      const snackBar = SnackBar(
+                        content: Text(
+                          " copy ✅",
+                          textAlign: TextAlign.center,
                         ),
+                      );
+
+                      FlutterClipboard.copy(snackBarText).then((value) {
+                        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      });
+                    },
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 100),
+                      padding: EdgeInsets.symmetric(
+                        vertical: _currentIndex == index ? 0.0 : 20.0,
+                        horizontal: _currentIndex == index ? 0.0 : 6.0,
                       ),
-                      Expanded(
-                        flex: 2,
-                        child: Container(
-                          alignment: Alignment.center,
-                          child: Text(
-                            _model.hex,
-                            style: _textTheme.bodyText2!.copyWith(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 17.0,
-                              letterSpacing: 1.75,
+                      child: Column(
+                        children: [
+                          Expanded(
+                            flex: 9,
+                            child: _model.gradient != null
+                                ? Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                        colors: List.generate(
+                                          _model.gradient!.length,
+                                          (position) => Color(
+                                            int.parse(
+                                                "${_model.gradient?[position]}"),
+                                          ),
+                                        ),
+                                      ),
+                                      borderRadius: BorderRadius.circular(12.0),
+                                    ),
+                                  )
+                                : _model.hex != null
+                                    ? Container(
+                                        decoration: BoxDecoration(
+                                          color: Color(int.parse(_model.hex!)),
+                                          borderRadius:
+                                              BorderRadius.circular(12.0),
+                                        ),
+                                      )
+                                    : Container(),
+                          ),
+                          Expanded(
+                            flex: 2,
+                            child: Container(
+                              alignment: Alignment.center,
+                              child: _model.hex != null
+                                  ? Text(
+                                      _model.hex ?? '',
+                                      style: _textTheme.bodyText2!.copyWith(
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 17.0,
+                                        letterSpacing: 1.75,
+                                      ),
+                                    )
+                                  : _model.gradient != null
+                                      ? Wrap(
+                                          children: List.generate(
+                                            _model.gradient!.length,
+                                            (index) => Text(
+                                              _model.gradient?[index] ?? '',
+                                              style: _textTheme.bodyText2!
+                                                  .copyWith(
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 17.0,
+                                                letterSpacing: 1.75,
+                                              ),
+                                            ),
+                                          ),
+                                        )
+                                      : const Text(""),
                             ),
                           ),
-                        ),
+                        ],
                       ),
-                    ],
+                    ),
                   ),
-                ),
-              ),
+                );
+              },
             );
           },
-        ),
+        )
       ],
     );
   }

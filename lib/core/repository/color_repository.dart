@@ -6,4 +6,10 @@ abstract class ColorRepository {
   Future<List<ColorModel>> getPlainColor();
   Future<List<ColorModel>> getSimpleColor();
   Future<List<ColorModel>> getSolidColor();
+
+  Future<List<ColorModel>> geFancyColor();
+  Future<List<ColorModel>> getGradientColor();
+  Future<List<ColorModel>> getSimpleGradientColor();
+  Future<List<ColorModel>> getMostLovedColor();
+  Future<List<ColorModel>> getClenColor();
 }

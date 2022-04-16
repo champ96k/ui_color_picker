@@ -1,11 +1,13 @@
 class ColorModel {
-  String name;
-  String hex;
+  String? name;
+  String? hex;
   String? rgb;
+  List<dynamic>? gradient;
 
   ColorModel({
-    required this.name,
-    required this.hex,
+    this.name,
+    this.hex,
+    this.gradient,
     this.rgb,
   });
 
@@ -13,11 +15,13 @@ class ColorModel {
         name: json["name"],
         hex: json["hex"],
         rgb: json["rgb"],
+        gradient: json["gradient"],
       );
 
   Map<String, dynamic> toJson() => {
         "name": name,
         "hex": hex,
         "rgb": rgb,
+        "gradient": gradient,
       };
 }

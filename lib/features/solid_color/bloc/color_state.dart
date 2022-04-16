@@ -76,3 +76,73 @@ class SolidColorState extends ColorState {
   @override
   List<Object?> get props => [models, title, dateTime];
 }
+
+class FancyColorsState extends ColorState {
+  final List<ColorModel> models;
+  final String title;
+  final DateTime dateTime;
+  FancyColorsState({
+    required this.models,
+    required this.title,
+    required this.dateTime,
+  });
+
+  @override
+  List<Object?> get props => [models, title, dateTime];
+}
+
+class CleanColorsState extends ColorState {
+  final List<ColorModel> models;
+  final String title;
+  final DateTime dateTime;
+  CleanColorsState({
+    required this.models,
+    required this.title,
+    required this.dateTime,
+  });
+
+  @override
+  List<Object?> get props => [models, title, dateTime];
+}
+
+class MostLovedColorsState extends ColorState {
+  final List<ColorModel> models;
+  final String title;
+  final DateTime dateTime;
+  MostLovedColorsState({
+    required this.models,
+    required this.title,
+    required this.dateTime,
+  });
+
+  @override
+  List<Object?> get props => [models, title, dateTime];
+}
+
+class SimpleGradientState extends ColorState {
+  final List<ColorModel> models;
+  final String title;
+  final DateTime dateTime;
+  SimpleGradientState({
+    required this.models,
+    required this.title,
+    required this.dateTime,
+  });
+
+  @override
+  List<Object?> get props => [models, title, dateTime];
+}
+
+class GradientColorsState extends ColorState {
+  final List<ColorModel> models;
+  final String title;
+  final DateTime dateTime;
+  GradientColorsState({
+    required this.models,
+    required this.title,
+    required this.dateTime,
+  });
+
+  @override
+  List<Object?> get props => [models, title, dateTime];
+}

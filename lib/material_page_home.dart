@@ -30,37 +30,58 @@ class _MaterialPageHomeState extends State<MaterialPageHome> {
             SizedBox(height: _size.height * 0.06),
             const ClickToCopyHelperBuilder(),
             SizedBox(height: _size.height * 0.06),
-            SizedBox(
-              height: _size.height * 0.08,
-              width: _size.width,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: List.generate(
-                  Constants.headlineText.length,
-                  (index) => Flexible(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                      child: GestureDetector(
-                        onTap: () => _triggerEvents(index),
-                        child: Container(
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            color: Color.fromARGB(
-                              255,
-                              254,
-                              index * 20,
-                              index * 40,
-                            ),
-                            borderRadius: BorderRadius.circular(8.0),
-                          ),
-                          child: Text(Constants.headlineText[index]),
-                          width: _size.width * 0.1,
-                        ),
-                      ),
+            LayoutBuilder(
+              builder: (_, BoxConstraints constrains) {
+                return SizedBox(
+                  height: (constrains.maxWidth > 1000)
+                      ? _size.height * 0.08
+                      : _size.height * 0.1,
+                  width: _size.width,
+                  child: GridView.builder(
+                    physics: const NeverScrollableScrollPhysics(),
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      childAspectRatio:
+                          (constrains.maxWidth > 1000) ? 16 / 7 : 16 / 5,
+                      crossAxisCount: (constrains.maxWidth > 1000)
+                          ? 10
+                          : (constrains.maxWidth < 1000 &&
+                                  constrains.maxWidth > 750)
+                              ? 5
+                              : (constrains.maxWidth > 100 &&
+                                      constrains.maxWidth < 500)
+                                  ? 2
+                                  : 3,
                     ),
+                    itemCount: Constants.headlineText.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      return Padding(
+                        padding: const EdgeInsets.only(
+                          top: 8.0,
+                          left: 8.0,
+                          right: 8.0,
+                        ),
+                        child: InkWell(
+                          onTap: () => _triggerEvents(index),
+                          child: Container(
+                            height: _size.height * 0.1,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              color: Color.fromARGB(
+                                255,
+                                254,
+                                index * 20,
+                                index * 40,
+                              ),
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
+                            child: Text(Constants.headlineText[index]),
+                          ),
+                        ),
+                      );
+                    },
                   ),
-                ),
-              ),
+                );
+              },
             ),
             BlocBuilder<ColorBloc, ColorState>(
               builder: (context, state) {
@@ -93,6 +114,41 @@ class _MaterialPageHomeState extends State<MaterialPageHome> {
                     models: state.models,
                     title: state.title,
                   );
+                }
+
+                if (state is FancyColorsState) {
+                  return ColorBuilder(
+                    models: state.models,
+                    title: state.title,
+                  );
+                }
+
+                if (state is GradientColorsState) {
+                  return ColorBuilder(
+                    models: state.models,
+                    title: state.title,
+                  );
+                }
+
+                if (state is SimpleGradientState) {
+                  return ColorBuilder(
+                    models: state.models,
+                    title: state.title,
+                  );
+                }
+
+                if (state is MostLovedColorsState) {
+                  return ColorBuilder(
+                    models: state.models,
+                    title: state.title,
+                  );
+                }
+
+                if (state is CleanColorsState) {
+                  return ColorBuilder(
+                    models: state.models,
+                    title: state.title,
+                  );
                 } else {
                   return SizedBox(
                     height: _size.height * 0.6,
@@ -112,7 +168,8 @@ class _MaterialPageHomeState extends State<MaterialPageHome> {
       bottomNavigationBar: SizedBox(
         height: MediaQuery.of(context).size.height * 0.04,
         child: const Center(
-          child: Text("With great color, comes great design."),
+          child:
+              Text("© 2024 Designed and built by Tushar Nikam With 💙 Flutter"),
         ),
       ),
     );
@@ -121,42 +178,45 @@ class _MaterialPageHomeState extends State<MaterialPageHome> {
   _triggerEvents(int index) {
     switch (index) {
       case 0:
-        context.read<ColorBloc>().add(NormalColorEvents());
+        context.read<ColorBloc>().add(MostUsedColorEvents());
         break;
       case 1:
-        context.read<ColorBloc>().add(MostUsedColorEvents());
+        context.read<ColorBloc>().add(NormalColorEvents());
         break;
 
       case 2:
-        context.read<ColorBloc>().add(NormalColorEvents());
+        context.read<ColorBloc>().add(GradientColorsEvents());
+
         break;
 
       case 3:
-        context.read<ColorBloc>().add(PlainColorEvents());
-        break;
-
-      case 4:
         context.read<ColorBloc>().add(SimpleColorEvents());
         break;
 
-      case 5:
+      case 4:
         context.read<ColorBloc>().add(SolidColorEvents());
+        break;
+
+      case 5:
+        context.read<ColorBloc>().add(FancyColorsEvents());
+
         break;
 
       case 6:
-        context.read<ColorBloc>().add(MostUsedColorEvents());
+        context.read<ColorBloc>().add(PlainColorEvents());
+
         break;
 
       case 7:
-        context.read<ColorBloc>().add(NormalColorEvents());
+        context.read<ColorBloc>().add(SimpleGradientEvents());
         break;
 
       case 8:
-        context.read<ColorBloc>().add(SolidColorEvents());
+        context.read<ColorBloc>().add(MostLovedColorsEvents());
         break;
 
       case 9:
-        context.read<ColorBloc>().add(MostUsedColorEvents());
+        context.read<ColorBloc>().add(CleanColorsEvents());
         break;
 
       default:

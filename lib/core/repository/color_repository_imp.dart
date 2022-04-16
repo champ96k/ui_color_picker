@@ -61,4 +61,60 @@ class ColorRepositoryImp extends ColorRepository {
 
     return _models;
   }
+
+  @override
+  Future<List<ColorModel>> geFancyColor() async {
+    final response = await rootBundle.loadString(Constants.fancyColorFilePath);
+    final List<dynamic> _result = json.decode(response);
+
+    final List<ColorModel> _models =
+        _result.map((e) => ColorModel.fromJson(e)).toList();
+
+    return _models;
+  }
+
+  @override
+  Future<List<ColorModel>> getClenColor() async {
+    final response = await rootBundle.loadString(Constants.cleanColorsFilePath);
+    final List<dynamic> _result = json.decode(response);
+
+    final List<ColorModel> _models =
+        _result.map((e) => ColorModel.fromJson(e)).toList();
+
+    return _models;
+  }
+
+  @override
+  Future<List<ColorModel>> getGradientColor() async {
+    final response = await rootBundle.loadString(Constants.gradientColorsPaht);
+    final List<dynamic> _result = json.decode(response);
+
+    final List<ColorModel> _models =
+        _result.map((e) => ColorModel.fromJson(e)).toList();
+
+    return _models;
+  }
+
+  @override
+  Future<List<ColorModel>> getMostLovedColor() async {
+    final response =
+        await rootBundle.loadString(Constants.mostLovedColorsFilePath);
+    final List<dynamic> _result = json.decode(response);
+
+    final List<ColorModel> _models =
+        _result.map((e) => ColorModel.fromJson(e)).toList();
+
+    return _models;
+  }
+
+  @override
+  Future<List<ColorModel>> getSimpleGradientColor() async {
+    final response = await rootBundle.loadString(Constants.simpleGradientPath);
+    final List<dynamic> _result = json.decode(response);
+
+    final List<ColorModel> _models =
+        _result.map((e) => ColorModel.fromJson(e)).toList();
+
+    return _models;
+  }
 }
