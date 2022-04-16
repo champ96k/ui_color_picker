@@ -1,0 +1,809 @@
+[
+    {
+        "name": "Omolon",
+        "gradient": ["0XFF091E3A", "0XFF2F80ED", "0XFF2D9EE0"]
+    },
+    {
+        "name": "Farhan",
+        "gradient": ["0XFF9400D3", "0XFF4B0082"]
+    }, 
+    {
+        "name": "Purple",
+        "gradient": ["0XFFc84e89", "0XFFF15F79"]
+    },
+    {
+        "name": "Ibtesam",
+        "gradient": ["0XFF00F5A0", "0XFF00D9F5"]
+    },
+    {
+        "name": "Radioactive Heat",
+        "gradient": ["0XFFF7941E", "0XFF72C6EF", "0XFF00A651"]
+    }, 
+    {
+        "name": "The Sky And The Sea",
+        "gradient": ["0XFFF7941E", "0XFF004E8F"]
+    },
+    {
+        "name": "From Ice To Fire",
+        "gradient": ["0XFF72C6EF", "0XFF004E8F"]
+    },
+  
+    {
+        "name": "Blue & Orange",
+        "gradient": ["0XFFFD8112", "0XFF0085CA"]
+    },
+    {
+        "name": "Purple Dream",
+        "gradient": ["0XFFbf5ae0","0XFFa811da"]
+    },
+    {
+        "name": "Blu",
+        "gradient": ["0XFF00416A", "0XFFE4E5E6"]
+    },
+    {
+        "name": "Summer Breeze",
+        "gradient": ["0XFFfbed96", "0XFFabecd6"]
+    },
+    {
+        "name": "Ver",
+        "gradient": ["0XFFFFE000", "0XFF799F0C"]
+    },
+    {
+        "name": "Ver Black",
+        "gradient": ["0XFFF7F8F8", "0XFFACBB78"]
+    },
+    {
+        "name": "Combi",
+        "gradient": ["0XFF00416A", "0XFF799F0C", "0XFFFFE000"]
+    },
+    {
+        "name": "Anwar",
+        "gradient": ["0XFF334d50", "0XFFcbcaa5"]
+    },
+    {
+        "name": "Bluelagoo",
+        "gradient": ["0XFF0052D4", "0XFF4364F7", "0XFF6FB1FC"]
+    },
+    {
+        "name": "Lunada",
+        "gradient": ["0XFF5433FF", "0XFF20BDFF", "0XFFA5FECB"]
+    },
+    {
+        "name": "Reaqua",
+        "gradient": ["0XFF799F0C", "0XFFACBB78"]
+    },
+    {
+        "name": "Mango",
+        "gradient": ["0XFFffe259", "0XFFffa751"]
+    },
+    {
+        "name": "Bupe",
+        "gradient": ["0XFF00416A", "0XFFE4E5E6"]
+    },
+    {
+        "name": "Rea",
+        "gradient": ["0XFFFFE000", "0XFF799F0C"]
+    },
+    {
+        "name": "Windy",
+        "gradient": ["0XFFacb6e5", "0XFF86fde8"]
+    },
+    {
+        "name": "Royal Blue",
+        "gradient": ["0XFF536976", "0XFF292E49"]
+    },
+    {
+        "name": "Royal Blue + Petrol",
+        "gradient": ["0XFFBBD2C5", "0XFF536976", "0XFF292E49"]
+    },
+    {
+        "name": "Copper",
+        "gradient": ["0XFFB79891", "0XFF94716B"]
+    },
+    {
+        "name": "Anamnisar",
+        "gradient": ["0XFF9796f0", "0XFFfbc7d4"]
+    },
+    {
+        "name": "Petrol",
+        "gradient": ["0XFFBBD2C5", "0XFF536976"]
+    },
+    {
+        "name": "Sky",
+        "gradient": ["0XFF076585", "0XFFfff"]
+    },
+    {
+        "name": "Sel",
+        "gradient": ["0XFF00467F", "0XFFA5CC82"]
+    }, 
+    {
+        "name": "Afternoon",
+        "gradient": ["0XFF000C40", "0XFF607D8B"]
+    },
+    {
+        "name": "Skyline",
+        "gradient": ["0XFF1488CC", "0XFF2B32B2"]
+    },
+    {
+        "name": "DIMIGO",
+        "gradient": ["0XFFec008c", "0XFFfc6767"]
+    },
+    {
+        "name": "Purple Love",
+        "gradient": ["0XFFcc2b5e", "0XFF753a88"]
+    },
+    {
+        "name": "Sexy Blue",
+        "gradient": ["0XFF2193b0", "0XFF6dd5ed"]
+    },
+    {
+        "name": "Blooker20",
+        "gradient": ["0XFFe65c00", "0XFFF9D423"]
+    },
+    {
+        "name": "Sea Blue",
+        "gradient": ["0XFF2b5876", "0XFF4e4376"]
+    },
+    {
+        "name": "Nimvelo",
+        "gradient": ["0XFF314755", "0XFF26a0da"]
+    },
+    {
+        "name": "Hazel",
+        "gradient": ["0XFF77A1D3", "0XFF79CBCA", "0XFFE684AE"]
+    },
+    {
+        "name": "Noon to Dusk",
+        "gradient": ["0XFFff6e7f", "0XFFbfe9ff"]
+    },
+    {
+        "name": "YouTube",
+        "gradient": ["0XFFe52d27", "0XFFb31217"]
+    },
+    {
+        "name": "Cool Brown",
+        "gradient": ["0XFF603813", "0XFFb29f94"]
+    },
+    {
+        "name": "Harmonic Energy",
+        "gradient": ["0XFF16A085", "0XFFF4D03F"]
+    },
+    {
+        "name": "Playing with Reds",
+        "gradient": ["0XFFD31027", "0XFFEA384D"]
+    },
+    {
+        "name": "Sunny Days",
+        "gradient": ["0XFFEDE574", "0XFFE1F5C4"]
+    },
+    {
+        "name": "Green Beach",
+        "gradient": ["0XFF02AAB0", "0XFF00CDAC"]
+    },
+    {
+        "name": "Intuitive Purple",
+        "gradient": ["0XFFDA22FF", "0XFF9733EE"]
+    },
+    {
+        "name": "Emerald Water",
+        "gradient": ["0XFF348F50", "0XFF56B4D3"]
+    },
+    {
+        "name": "Lemon Twist",
+        "gradient": ["0XFF3CA55C", "0XFFB5AC49"]
+    },
+    {
+        "name": "Monte Carlo",
+        "gradient": ["0XFFCC95C0", "0XFFDBD4B4", "0XFF7AA1D2"]
+    },
+    {
+        "name": "Horizon",
+        "gradient": ["0XFF003973", "0XFFE5E5BE"]
+    },
+    {
+        "name": "Rose Water",
+        "gradient": ["0XFFE55D87", "0XFF5FC3E4"]
+    },
+    {
+        "name": "Frozen",
+        "gradient": ["0XFF403B4A", "0XFFE7E9BB"]
+    },
+    {
+        "name": "Mango Pulp",
+        "gradient": ["0XFFF09819", "0XFFEDDE5D"]
+    },
+    {
+        "name": "Bloody Mary",
+        "gradient": ["0XFFFF512F", "0XFFDD2476"]
+    },
+    {
+        "name": "Aubergine",
+        "gradient": ["0XFFAA076B", "0XFF61045F"]
+    },
+    {
+        "name": "Aqua Marine",
+        "gradient": ["0XFF1A2980", "0XFF26D0CE"]
+    },
+    {
+        "name": "Sunrise",
+        "gradient": ["0XFFFF512F", "0XFFF09819"]
+    },
+    {
+        "name": "Purple Paradise",
+        "gradient": ["0XFF1D2B64", "0XFFF8CDDA"]
+    },
+    {
+        "name": "Stripe",
+        "gradient": ["0XFF1FA2FF", "0XFF12D8FA", "0XFFA6FFCB"]
+    },
+    {
+        "name": "Sea Weed",
+        "gradient": ["0XFF4CB8C4", "0XFF3CD3AD"]
+    },
+    {
+        "name": "Pinky",
+        "gradient": ["0XFFDD5E89", "0XFFF7BB97"]
+    },
+    {
+        "name": "Cherry",
+        "gradient": ["0XFFEB3349", "0XFFF45C43"]
+    },
+    {
+        "name": "Mojito",
+        "gradient": ["0XFF1D976C", "0XFF93F9B9"]
+    },
+    {
+        "name": "Juicy Orange",
+        "gradient": ["0XFFFF8008", "0XFFFFC837"]
+    },
+    {
+        "name": "Mirage",
+        "gradient": ["0XFF16222A", "0XFF3A6073"]
+    },
+    {
+        "name": "Steel Gray",
+        "gradient": ["0XFF1F1C2C", "0XFF928DAB"]
+    },
+    {
+        "name": "Kashmir",
+        "gradient": ["0XFF614385", "0XFF516395"]
+    },
+    {
+        "name": "Electric Violet",
+        "gradient": ["0XFF4776E6", "0XFF8E54E9"]
+    },
+    {
+        "name": "Venice Blue",
+        "gradient": ["0XFF085078", "0XFF85D8CE"]
+    },
+    {
+        "name": "Bora Bora",
+        "gradient": ["0XFF2BC0E4", "0XFFEAECC6"]
+    },
+    {
+        "name": "Moss",
+        "gradient": ["0XFF134E5E", "0XFF71B280"]
+    },
+    {
+        "name": "Shroom Haze",
+        "gradient": ["0XFF5C258D", "0XFF4389A2"]
+    },
+    {
+        "name": "Mystic",
+        "gradient": ["0XFF757F9A", "0XFFD7DDE8"]
+    },
+    {
+        "name": "Midnight City",
+        "gradient": ["0XFF232526", "0XFF414345"]
+    },
+    {
+        "name": "Sea Blizz",
+        "gradient": ["0XFF1CD8D2", "0XFF93EDC7"]
+    },
+    {
+        "name": "Opa",
+        "gradient": ["0XFF3D7EAA", "0XFFFFE47A"]
+    },
+    {
+        "name": "Titanium",
+        "gradient": ["0XFF283048", "0XFF859398"]
+    },
+    {
+        "name": "Mantle",
+        "gradient": ["0XFF24C6DC", "0XFF514A9D"]
+    },
+    {
+        "name": "Dracula",
+        "gradient": ["0XFFDC2424", "0XFF4A569D"]
+    },
+    {
+        "name": "Peach",
+        "gradient": ["0XFFED4264", "0XFFFFEDBC"]
+    },
+    {
+        "name": "Moonrise",
+        "gradient": ["0XFFDAE2F8", "0XFFD6A4A4"]
+    },
+    {
+        "name": "Clouds",
+        "gradient": ["0XFFECE9E6", "0XFFFFFFFF"]
+    },
+    {
+        "name": "Stellar",
+        "gradient": ["0XFF7474BF", "0XFF348AC7"]
+    },
+    {
+        "name": "Bourbon",
+        "gradient": ["0XFFEC6F66", "0XFFF3A183"]
+    },
+    {
+        "name": "Calm Darya",
+        "gradient": ["0XFF5f2c82", "0XFF49a09d"]
+    },
+    {
+        "name": "Influenza",
+        "gradient": ["0XFFC04848", "0XFF480048"]
+    },
+    {
+        "name": "Shrimpy",
+        "gradient": ["0XFFe43a15", "0XFFe65245"]
+    },
+    {
+        "name": "Army",
+        "gradient": ["0XFF414d0b", "0XFF727a17"]
+    },
+    {
+        "name": "Miaka",
+        "gradient": ["0XFFFC354C", "0XFF0ABFBC"]
+    },
+    {
+        "name": "Pinot Noir",
+        "gradient": ["0XFF4b6cb7", "0XFF182848"]
+    },
+    {
+        "name": "Day Tripper",
+        "gradient": ["0XFFf857a6", "0XFFff5858"]
+    },
+    {
+        "name": "Namn",
+        "gradient": ["0XFFa73737", "0XFF7a2828"]
+    },
+    {
+        "name": "Blurry Beach",
+        "gradient": ["0XFFd53369", "0XFFcbad6d"]
+    },
+    {
+        "name": "Vasily",
+        "gradient": ["0XFFe9d362", "0XFF333333"]
+    },
+    {
+        "name": "A Lost Memory",
+        "gradient": ["0XFFDE6262", "0XFFFFB88C"]
+    },
+    {
+        "name": "Petrichor",
+        "gradient": ["0XFF666600", "0XFF999966"]
+    },
+    {
+        "name": "Jonquil",
+        "gradient": ["0XFFFFEEEE", "0XFFDDEFBB"]
+    },
+    {
+        "name": "Sirius Tamed",
+        "gradient": ["0XFFEFEFBB", "0XFFD4D3DD"]
+    },
+    {
+        "name": "Kyoto",
+        "gradient": ["0XFFc21500", "0XFFffc500"]
+    },
+    {
+        "name": "Misty Meadow",
+        "gradient": ["0XFF215f00", "0XFFe4e4d9"]
+    },
+    {
+        "name": "Aqualicious",
+        "gradient": ["0XFF50C9C3", "0XFF96DEDA"]
+    },
+    {
+        "name": "Moor",
+        "gradient": ["0XFF616161", "0XFF9bc5c3"]
+    },
+    {
+        "name": "Almost",
+        "gradient": ["0XFFddd6f3", "0XFFfaaca8"]
+    },
+    {
+        "name": "Forever Lost",
+        "gradient": ["0XFF5D4157", "0XFFA8CABA"]
+    },
+    {
+        "name": "Winter",
+        "gradient": ["0XFFE6DADA", "0XFF274046"]
+    },
+    {
+        "name": "Nelson",
+        "gradient": ["0XFFf2709c", "0XFFff9472"]
+    },
+    {
+        "name": "Autumn",
+        "gradient": ["0XFFDAD299", "0XFFB0DAB9"]
+    },
+    {
+        "name": "Candy",
+        "gradient": ["0XFFD3959B", "0XFFBFE6BA"]
+    },
+    {
+        "name": "Reef",
+        "gradient": ["0XFF00d2ff", "0XFF3a7bd5"]
+    },
+    {
+        "name": "The Strain",
+        "gradient": ["0XFF870000", "0XFF190A05"]
+    },
+    {
+        "name": "Dirty Fog",
+        "gradient": ["0XFFB993D6", "0XFF8CA6DB"]
+    },
+    {
+        "name": "Earthly",
+        "gradient": ["0XFF649173", "0XFFDBD5A4"]
+    },
+    {
+        "name": "Virgin",
+        "gradient": ["0XFFC9FFBF", "0XFFFFAFBD"]
+    },
+    {
+        "name": "Ash",
+        "gradient": ["0XFF606c88", "0XFF3f4c6b"]
+    },
+    {
+        "name": "Cherryblossoms",
+        "gradient": ["0XFFFBD3E9", "0XFFBB377D"]
+    },
+    {
+        "name": "Parklife",
+        "gradient": ["0XFFADD100", "0XFF7B920A"]
+    },
+    {
+        "name": "Dance To Forget",
+        "gradient": ["0XFFFF4E50", "0XFFF9D423"]
+    },
+    {
+        "name": "Starfall",
+        "gradient": ["0XFFF0C27B", "0XFF4B1248"]
+    },
+    {
+        "name": "Red Mist",
+        "gradient": ["0XFF000000", "0XFFe74c3c"]
+    },
+    {
+        "name": "Teal Love",
+        "gradient": ["0XFFAAFFA9", "0XFF11FFBD"]
+    },
+    {
+        "name": "Neon Life",
+        "gradient": ["0XFFB3FFAB", "0XFF12FFF7"]
+    },
+    {
+        "name": "Man of Steel",
+        "gradient": ["0XFF780206", "0XFF061161"]
+    },
+    {
+        "name": "Amethyst",
+        "gradient": ["0XFF9D50BB", "0XFF6E48AA"]
+    },
+    {
+        "name": "Cheer Up Emo Kid",
+        "gradient": ["0XFF556270", "0XFFFF6B6B"]
+    },
+    {
+        "name": "Shore",
+        "gradient": ["0XFF70e1f5", "0XFFffd194"]
+    },
+    {
+        "name": "Facebook Messenger",
+        "gradient": ["0XFF00c6ff", "0XFF0072ff"]
+    },
+    {
+        "name": "SoundCloud",
+        "gradient": ["0XFFfe8c00", "0XFFf83600"]
+    },
+    {
+        "name": "Behongo",
+        "gradient": ["0XFF52c234", "0XFF061700"]
+    },
+    {
+        "name": "ServQuick",
+        "gradient": ["0XFF485563", "0XFF29323c"]
+    },
+    {
+        "name": "Friday",
+        "gradient": ["0XFF83a4d4", "0XFFb6fbff"]
+    },
+    {
+        "name": "Martini",
+        "gradient": ["0XFFFDFC47", "0XFF24FE41"]
+    },
+    {
+        "name": "Metallic Toad",
+        "gradient": ["0XFFabbaab", "0XFFffffff"]
+    },
+    {
+        "name": "Between The Clouds",
+        "gradient": ["0XFF73C8A9", "0XFF373B44"]
+    },
+    {
+        "name": "Crazy Orange I",
+        "gradient": ["0XFFD38312", "0XFFA83279"]
+    },
+    {
+        "name": "Hersheys",
+        "gradient": ["0XFF1e130c", "0XFF9a8478"]
+    },
+    {
+        "name": "Talking To Mice Elf",
+        "gradient": ["0XFF948E99", "0XFF2E1437"]
+    },
+    {
+        "name": "Purple Bliss",
+        "gradient": ["0XFF360033", "0XFF0b8793"]
+    },
+    {
+        "name": "Predawn",
+        "gradient": ["0XFFFFA17F", "0XFF00223E"]
+    },
+    {
+        "name": "Endless River",
+        "gradient": ["0XFF43cea2", "0XFF185a9d"]
+    },
+    {
+        "name": "Pastel Orange at the Sun",
+        "gradient": ["0XFFffb347", "0XFFffcc33"]
+    },
+    {
+        "name": "Twitch",
+        "gradient": ["0XFF6441A5", "0XFF2a0845"]
+    },
+    {
+        "name": "Atlas",
+        "gradient": ["0XFFFEAC5E", "0XFFC779D0", "0XFF4BC0C8"]
+    },
+    {
+        "name": "Instagram",
+        "gradient": ["0XFF833ab4", "0XFFfd1d1d", "0XFFfcb045"]
+    },
+    {
+        "name": "Flickr",
+        "gradient": ["0XFFff0084", "0XFF33001b"]
+    },
+    {
+        "name": "Vine",
+        "gradient": ["0XFF00bf8f", "0XFF001510"]
+    },
+    {
+        "name": "Turquoise flow",
+        "gradient": ["0XFF136a8a", "0XFF267871"]
+    },
+    {
+        "name": "Portrait",
+        "gradient": ["0XFF8e9eab", "0XFFeef2f3"]
+    },
+    {
+        "name": "Virgin America",
+        "gradient": ["0XFF7b4397", "0XFFdc2430"]
+    },
+    {
+        "name": "Koko Caramel",
+        "gradient": ["0XFFD1913C", "0XFFFFD194"]
+    },
+    {
+        "name": "Fresh Turboscent",
+        "gradient": ["0XFFF1F2B5", "0XFF135058"]
+    },
+    {
+        "name": "Green to dark",
+        "gradient": ["0XFF6A9113", "0XFF141517"]
+    },
+    {
+        "name": "Ukraine",
+        "gradient": ["0XFF004FF9", "0XFFFFF94C"]
+    },
+    {
+        "name": "Curiosity blue",
+        "gradient": ["0XFF525252", "0XFF3d72b4"]
+    },
+    {
+        "name": "Dark Knight",
+        "gradient": ["0XFFBA8B02", "0XFF181818"]
+    },
+    {
+        "name": "Piglet",
+        "gradient": ["0XFFee9ca7", "0XFFffdde1"]
+    },
+    {
+        "name": "Lizard",
+        "gradient": ["0XFF304352", "0XFFd7d2cc"]
+    },
+    {
+        "name": "Sage Persuasion",
+        "gradient": ["0XFFCCCCB2", "0XFF757519"]
+    },
+    {
+        "name": "Between Night and Day",
+        "gradient": ["0XFF2c3e50", "0XFF3498db"]
+    },
+    {
+        "name": "Timber",
+        "gradient": ["0XFFfc00ff", "0XFF00dbde"]
+    },
+    {
+        "name": "Passion",
+        "gradient": ["0XFFe53935", "0XFFe35d5b"]
+    },
+    {
+        "name": "Clear Sky",
+        "gradient": ["0XFF005C97", "0XFF363795"]
+    },
+    {
+        "name": "Master Card",
+        "gradient": ["0XFFf46b45", "0XFFeea849"]
+    },
+    {
+        "name": "Back To Earth",
+        "gradient": ["0XFF00C9FF", "0XFF92FE9D"]
+    },
+    {
+        "name": "Deep Purple",
+        "gradient": ["0XFF673AB7", "0XFF512DA8"]
+    },
+    {
+        "name": "Little Leaf",
+        "gradient": ["0XFF76b852", "0XFF8DC26F"]
+    },
+    {
+        "name": "Netflix",
+        "gradient": ["0XFF8E0E00", "0XFF1F1C18"]
+    },
+    {
+        "name": "Light Orange",
+        "gradient": ["0XFFFFB75E", "0XFFED8F03"]
+    },
+    {
+        "name": "Green and Blue",
+        "gradient": ["0XFFc2e59c", "0XFF64b3f4"]
+    },
+    {
+        "name": "Poncho",
+        "gradient": ["0XFF403A3E", "0XFFBE5869"]
+    },
+    {
+        "name": "Back to the Future",
+        "gradient": ["0XFFC02425", "0XFFF0CB35"]
+    },
+    {
+        "name": "Blush",
+        "gradient": ["0XFFB24592", "0XFFF15F79"]
+    },
+    {
+        "name": "Inbox",
+        "gradient": ["0XFF457fca", "0XFF5691c8"]
+    },
+    {
+        "name": "Purplin",
+        "gradient": ["0XFF6a3093", "0XFFa044ff"]
+    },
+    {
+        "name": "Pale Wood",
+        "gradient": ["0XFFeacda3", "0XFFd6ae7b"]
+    },
+    {
+        "name": "Haikus",
+        "gradient": ["0XFFfd746c", "0XFFff9068"]
+    },
+    {
+        "name": "Pizelex",
+        "gradient": ["0XFF114357", "0XFFF29492"]
+    },
+    {
+        "name": "Joomla",
+        "gradient": ["0XFF1e3c72", "0XFF2a5298"]
+    },
+    {
+        "name": "Christmas",
+        "gradient": ["0XFF2F7336", "0XFFAA3A38"]
+    },
+    {
+        "name": "Minnesota Vikings",
+        "gradient": ["0XFF5614B0", "0XFFDBD65C"]
+    },
+    {
+        "name": "Miami Dolphins",
+        "gradient": ["0XFF4DA0B0", "0XFFD39D38"]
+    },
+    {
+        "name": "Forest",
+        "gradient": ["0XFF5A3F37", "0XFF2C7744"]
+    },
+    {
+        "name": "Nighthawk",
+        "gradient": ["0XFF2980b9", "0XFF2c3e50"]
+    },
+    {
+        "name": "Superman",
+        "gradient": ["0XFF0099F7", "0XFFF11712"]
+    },
+    {
+        "name": "Suzy",
+        "gradient": ["0XFF834d9b", "0XFFd04ed6"]
+    },
+    {
+        "name": "Dark Skies",
+        "gradient": ["0XFF4B79A1", "0XFF283E51"]
+    },
+    {
+        "name": "Deep Space",
+        "gradient": ["0XFF000000", "0XFF434343"]
+    },
+    {
+        "name": "Decent",
+        "gradient": ["0XFF4CA1AF", "0XFFC4E0E5"]
+    },
+    {
+        "name": "gradient Of Sky",
+        "gradient": ["0XFFE0EAFC", "0XFFCFDEF3"]
+    },
+    {
+        "name": "Purple White",
+        "gradient": ["0XFFBA5370", "0XFFF4E2D8"]
+    },
+    {
+        "name": "Ali",
+        "gradient": ["0XFFff4b1f", "0XFF1fddff"]
+    },
+    {
+        "name": "Alihossein",
+        "gradient": ["0XFFf7ff00", "0XFFdb36a4"]
+    },
+    {
+        "name": "Shahabi",
+        "gradient": ["0XFFa80077", "0XFF66ff00"]
+    },
+    {
+        "name": "Red Ocean",
+        "gradient": ["0XFF1D4350", "0XFFA43931"]
+    },
+    {
+        "name": "Tranquil",
+        "gradient": ["0XFFEECDA3", "0XFFEF629F"]
+    },
+    {
+        "name": "Transfile",
+        "gradient": ["0XFF16BFFD", "0XFFCB3066"]
+    },
+
+    {
+        "name": "Sylvia",
+        "gradient": ["0XFFff4b1f", "0XFFff9068"]
+    },
+    {
+        "name": "Sweet Morning",
+        "gradient": ["0XFFFF5F6D", "0XFFFFC371"]
+    },
+    {
+        "name": "Politics",
+        "gradient": ["0XFF2196f3", "0XFFf44336"]
+    },
+    {
+        "name": "Bright Vault",
+        "gradient": ["0XFF00d2ff", "0XFF928DAB"]
+    },
+    {
+        "name": "Solid Vault",
+        "gradient": ["0XFF3a7bd5", "0XFF3a6073"]
+    },
+    {
+        "name": "Sunset",
+        "gradient": ["0XFF0B486B", "0XFFF56217"]
+    }
+    
+]

@@ -1,0 +1,730 @@
+[
+    {
+        "name": "Grapefruit Sunset",
+        "gradient": ["0XFFe96443", "0XFF904e95"]
+    },
+    {
+        "name": "Deep Sea Space",
+        "gradient": ["0XFF2C3E50", "0XFF4CA1AF"]
+    },
+    {
+        "name": "Dusk",
+        "gradient": ["0XFF2C3E50", "0XFFFD746C"]
+    },
+    {
+        "name": "Minimal Red",
+        "gradient": ["0XFFF00000", "0XFFDC281E"]
+    },
+    {
+        "name": "Royal",
+        "gradient": ["0XFF141E30", "0XFF243B55"]
+    },
+    {
+        "name": "Mauve",
+        "gradient": ["0XFF42275a", "0XFF734b6d"]
+    },
+    {
+        "name": "Frost",
+        "gradient": ["0XFF000428", "0XFF004e92"]
+    },
+    {
+        "name": "Lush",
+        "gradient": ["0XFF56ab2f", "0XFFa8e063"]
+    },
+    {
+        "name": "Firewatch",
+        "gradient": ["0XFFcb2d3e", "0XFFef473a"]
+    },
+    {
+        "name": "Sherbert",
+        "gradient": ["0XFFf79d00", "0XFF64f38c"]
+    },
+    {
+        "name": "Blood Red",
+        "gradient": ["0XFFf85032", "0XFFe73827"]
+    },
+    {
+        "name": "Sun on the Horizon",
+        "gradient": ["0XFFfceabb", "0XFFf8b500"]
+    },
+    {
+        "name": "IIIT Delhi",
+        "gradient": ["0XFF808080", "0XFF3fada8"]
+    },
+    {
+        "name": "Jupiter",
+        "gradient": ["0XFFffd89b", "0XFF19547b"]
+    },
+    {
+        "name": "50 Shades of Grey",
+        "gradient": ["0XFFbdc3c7", "0XFF2c3e50"]
+    },
+    {
+        "name": "Dania",
+        "gradient": ["0XFFBE93C5", "0XFF7BC6CC"]
+    },
+    {
+        "name": "Limeade",
+        "gradient": ["0XFFA1FFCE", "0XFFFAFFD1"]
+    },
+    {
+        "name": "Disco",
+        "gradient": ["0XFF4ECDC4", "0XFF556270"]
+    },
+    {
+        "name": "Love Couple",
+        "gradient": ["0XFF3a6186", "0XFF89253e"]
+    },
+    {
+        "name": "Azure Pop",
+        "gradient": ["0XFFef32d9", "0XFF89fffd"]
+    },
+    {
+        "name": "Nepal",
+        "gradient": ["0XFFde6161", "0XFF2657eb"]
+    },
+    {
+        "name": "Cosmic Fusion",
+        "gradient": ["0XFFff00cc", "0XFF333399"]
+    },
+    {
+        "name": "Snapchat",
+        "gradient": ["0XFFfffc00", "0XFFffffff"]
+    },
+    {
+        "name": "Ed's Sunset Gradient",
+        "gradient": ["0XFFff7e5f", "0XFFfeb47b"]
+    },
+    {
+        "name": "Brady Brady Fun Fun",
+        "gradient": ["0XFF00c3ff", "0XFFffff1c"]
+    },
+    {
+        "name": "Black Rosé",
+        "gradient": ["0XFFf4c4f3", "0XFFfc67fa"]
+    },
+    {
+        "name": "80's Purple",
+        "gradient": ["0XFF41295a", "0XFF2F0743"]
+    },
+    {
+        "name": "Radar",
+        "gradient": ["0XFFA770EF", "0XFFCF8BF3", "0XFFFDB99B"]
+    },
+    {
+        "name": "Ibiza Sunset",
+        "gradient": ["0XFFee0979", "0XFFff6a00"]
+    },
+    {
+        "name": "Dawn",
+        "gradient": ["0XFFF3904F", "0XFF3B4371"]
+    },
+    {
+        "name": "Mild",
+        "gradient": ["0XFF67B26F", "0XFF4ca2cd"]
+    },
+    {
+
+        "name": "Vice City",
+        "gradient": ["0XFF3494E6", "0XFFEC6EAD"]
+    },
+    {
+        "name": "Jaipur",
+        "gradient": ["0XFFDBE6F6", "0XFFC5796D"]
+
+    },
+    {
+        "name": "Jodhpur",
+        "gradient": ["0XFF9CECFB", "0XFF65C7F7", "0XFF0052D4"]
+
+    },
+    {
+        "name": "Cocoaa Ice",
+        "gradient": ["0XFFc0c0aa", "0XFF1cefff"]
+    },
+    {
+        "name": "EasyMed",
+        "gradient": ["0XFFDCE35B", "0XFF45B649"]
+    },
+    {
+        "name": "Rose Colored Lenses",
+        "gradient": ["0XFFE8CBC0", "0XFF636FA4"]
+    },
+    {
+        "name": "What lies Beyond",
+        "gradient": ["0XFFF0F2F0", "0XFF000C40"]
+    },
+    {
+        "name": "Roseanna",
+        "gradient": ["0XFFFFAFBD", "0XFFffc3a0"]
+    },
+    {
+        "name": "Honey Dew",
+        "gradient": ["0XFF43C6AC", "0XFFF8FFAE"]
+    },
+    {
+        "name": "Under the Lake",
+        "gradient": ["0XFF093028", "0XFF237A57"]
+    },
+    {
+        "name": "The Blue Lagoon",
+        "gradient": ["0XFF43C6AC", "0XFF191654"]
+    },
+    {
+        "name": "Can You Feel The Love Tonight",
+        "gradient": ["0XFF4568DC", "0XFFB06AB3"]
+    },
+    {
+        "name": "Very Blue",
+        "gradient": ["0XFF0575E6", "0XFF021B79"]
+    },
+    {
+        "name": "Love and Liberty",
+        "gradient": ["0XFF200122", "0XFF6f0000"]
+    },
+    {
+        "name": "Orca",
+        "gradient": ["0XFF44A08D", "0XFF093637"]
+    },
+    {
+        "name": "Venice",
+        "gradient": ["0XFF6190E8", "0XFFA7BFE8"]
+    },
+    {
+        "name": "Pacific Dream",
+        "gradient": ["0XFF34e89e", "0XFF0f3443"]
+    },
+    {
+        "name": "Learning and Leading",
+        "gradient": ["0XFFF7971E", "0XFFFFD200"]
+    },
+    {
+        "name": "Celestial",
+        "gradient": ["0XFFC33764", "0XFF1D2671"]
+    },
+    {
+        "name": "Purplepine",
+        "gradient": ["0XFF20002c", "0XFFcbb4d4"]
+    },
+    {
+        "name": "Sha la la",
+        "gradient": ["0XFFD66D75", "0XFFE29587"]
+    },
+    {
+        "name": "Mini",
+        "gradient": ["0XFF30E8BF", "0XFFFF8235"]
+    },
+    {
+        "name": "Maldives",
+        "gradient": ["0XFFB2FEFA", "0XFF0ED2F7"]
+    },
+    {
+        "name": "Cinnamint",
+        "gradient": ["0XFF4AC29A", "0XFFBDFFF3"]
+    },
+    {
+        "name": "Html",
+        "gradient": ["0XFFE44D26", "0XFFF16529"]
+    },
+    {
+        "name": "Coal",
+        "gradient": ["0XFFEB5757", "0XFF000000"]
+    },
+    {
+        "name": "Sunkist",
+        "gradient": ["0XFFF2994A", "0XFFF2C94C"]
+    },
+    {
+        "name": "Blue Skies",
+        "gradient": ["0XFF56CCF2", "0XFF2F80ED"]
+    },
+    {
+        "name": "Chitty Chitty Bang Bang",
+        "gradient": ["0XFF007991", "0XFF78ffd6"]
+    },
+    {
+        "name": "Visions of Grandeur",
+        "gradient": ["0XFF000046", "0XFF1CB5E0"]
+    },
+    {
+        "name": "Crystal Clear",
+        "gradient": ["0XFF159957", "0XFF155799"]
+    },
+    {
+        "name": "Mello",
+        "gradient": ["0XFFc0392b", "0XFF8e44ad"]
+    },
+    {
+        "name": "Compare Now",
+        "gradient": ["0XFFEF3B36", "0XFFFFFFFF"]
+    },
+    {
+        "name": "Meridian",
+        "gradient": ["0XFF283c86", "0XFF45a247"]
+    },
+    {
+        "name": "Relay",
+        "gradient": ["0XFF3A1C71", "0XFFD76D77", "0XFFFFAF7B"]
+    },
+    {
+        "name": "Alive",
+        "gradient": ["0XFFCB356B", "0XFFBD3F32"]
+    },
+    {
+        "name": "Scooter",
+        "gradient": ["0XFF36D1DC", "0XFF5B86E5"]
+    },
+    {
+        "name": "Terminal",
+        "gradient": ["0XFF000000", "0XFF0f9b0f"]
+    },
+    {
+        "name": "Telegram",
+        "gradient": ["0XFF1c92d2", "0XFFf2fcfe"]
+    },
+    {
+        "name": "Crimson Tide",
+        "gradient": ["0XFF642B73", "0XFFC6426E"]
+    },
+    {
+        "name": "Socialive",
+        "gradient": ["0XFF06beb6", "0XFF48b1bf"]
+    },
+    {
+        "name": "Subu",
+        "gradient": ["0XFF0cebeb", "0XFF20e3b2", "0XFF29ffc6"]
+    },
+    {
+        "name": "Broken Hearts",
+        "gradient": ["0XFFd9a7c7", "0XFFfffcdc"]
+    },
+    {
+        "name": "Kimoby Is The New Blue",
+        "gradient": ["0XFF396afc", "0XFF2948ff"]
+    },
+    {
+        "name": "Dull",
+        "gradient": ["0XFFC9D6FF", "0XFFE2E2E2"]
+    },
+    {
+        "name": "Purpink",
+        "gradient": ["0XFF7F00FF", "0XFFE100FF"]
+    },
+    {
+        "name": "Orange Coral",
+        "gradient": ["0XFFff9966", "0XFFff5e62"]
+    },
+    {
+        "name": "Summer",
+        "gradient": ["0XFF22c1c3", "0XFFfdbb2d"]
+    },
+    {
+        "name": "King Yna",
+        "gradient": ["0XFF1a2a6c", "0XFFb21f1f", "0XFFfdbb2d"]
+    },
+    {
+        "name": "Velvet Sun",
+        "gradient": ["0XFFe1eec3", "0XFFf05053"]
+    },
+    {
+        "name": "Zinc",
+        "gradient": ["0XFFADA996", "0XFFF2F2F2", "0XFFDBDBDB", "0XFFEAEAEA"]
+    },
+    {
+        "name": "Hydrogen",
+        "gradient": ["0XFF667db6", "0XFF0082c8", "0XFF0082c8", "0XFF667db6"]
+    },
+    {
+        "name": "Argon",
+        "gradient": ["0XFF03001e", "0XFF7303c0", "0XFFec38bc", "0XFFfdeff9"]
+    },
+    {
+        "name": "Lithium",
+        "gradient": ["0XFF6D6027", "0XFFD3CBB8"]
+    },
+    {
+        "name": "Digital Water",
+        "gradient": ["0XFF74ebd5","0XFFACB6E5"]
+    },
+    {
+        "name": "Orange Fun",
+        "gradient": ["0XFFfc4a1a", "0XFFf7b733"]
+    },
+    {
+        "name": "Rainbow Blue",
+        "gradient": ["0XFF00F260", "0XFF0575E6"]
+    },
+    {
+        "name": "Pink Flavour",
+        "gradient": ["0XFF800080", "0XFFffc0cb"]
+    },
+    {
+        "name": "Sulphur",
+        "gradient": ["0XFFCAC531", "0XFFF3F9A7"]
+    },
+    {
+        "name": "Selenium",
+        "gradient": ["0XFF3C3B3F", "0XFF605C3C"]
+    },
+    {
+        "name": "Delicate",
+        "gradient": ["0XFFD3CCE3", "0XFFE9E4F0"]
+    },
+    {
+
+        "name": "Ohhappiness",
+        "gradient": ["0XFF00b09b", "0XFF96c93d"]
+    },
+    {
+        "name": "Lawrencium",
+        "gradient": ["0XFF0f0c29", "0XFF302b63", "0XFF24243e"]
+    },
+    {
+        "name": "Relaxing red",
+        "gradient": ["0XFFfffbd5", "0XFFb20a2c"]
+    },
+    {
+        "name": "Taran Tado",
+        "gradient": ["0XFF23074d", "0XFFcc5333"]
+    },
+    {
+        "name": "Bighead",
+        "gradient": ["0XFFc94b4b", "0XFF4b134f"]
+    },
+    {
+        "name": "Sublime Vivid",
+        "gradient": ["0XFFFC466B", "0XFF3F5EFB"]
+    },
+    {
+        "name": "Sublime Light",
+        "gradient": ["0XFFFC5C7D", "0XFF6A82FB"]
+    },
+    {
+        "name": "Pun Yeta",
+        "gradient": ["0XFF108dc7", "0XFFef8e38"]
+    },
+    {
+        "name": "Quepal",
+        "gradient": ["0XFF11998e", "0XFF38ef7d"]
+    },
+    {
+        "name": "Sand to Blue",
+        "gradient": ["0XFF3E5151", "0XFFDECBA4"]
+    },
+    {
+        "name": "Wedding Day Blues",
+        "gradient": ["0XFF40E0D0", "0XFFFF8C00", "0XFFFF0080"]
+    },
+    {
+        "name": "Shifter",
+        "gradient": ["0XFFbc4e9c", "0XFFf80759"]
+    },
+    {
+        "name": "Red Sunset",
+        "gradient": ["0XFF355C7D", "0XFF6C5B7B", "0XFFC06C84"]
+    },
+    {
+        "name": "Moon Purple",
+        "gradient": ["0XFF4e54c8", "0XFF8f94fb"]
+    },
+    {
+        "name": "Pure Lust",
+        "gradient": ["0XFF333333", "0XFFdd1818"]
+    },
+    {
+        "name": "Slight Ocean View",
+        "gradient": ["0XFFa8c0ff", "0XFF3f2b96"]
+    },
+    {
+        "name": "eXpresso",
+        "gradient": ["0XFFad5389", "0XFF3c1053"]
+    },
+    {
+        "name": "Shifty",
+        "gradient": ["0XFF636363", "0XFFa2ab58"]
+    },
+    {
+        "name": "Vanusa",
+        "gradient": ["0XFFDA4453", "0XFF89216B"]
+    },
+    {
+        "name": "Evening Night",
+        "gradient": ["0XFF005AA7", "0XFFFFFDE4"]
+    },
+    {
+        "name": "Magic",
+        "gradient": ["0XFF59C173", "0XFFa17fe0", "0XFF5D26C1"]
+    },
+    {
+        "name": "Margo",
+        "gradient": ["0XFFFFEFBA", "0XFFFFFFFF"]
+    },
+    {
+        "name": "Blue Raspberry",
+        "gradient": ["0XFF00B4DB", "0XFF0083B0"]
+    },
+    {
+        "name": "Citrus Peel",
+        "gradient": ["0XFFFDC830", "0XFFF37335"]
+    },
+    {
+        "name": "Sin City Red",
+        "gradient": ["0XFFED213A", "0XFF93291E"]
+    },    
+    {
+        "name": "Rastafari",
+        "gradient": ["0XFF1E9600", "0XFFFFF200", "0XFFFF0000"]
+    },
+    {
+        "name": "Summer Dog",
+        "gradient": ["0XFFa8ff78", "0XFF78ffd6"]
+    },
+    {
+        "name": "Wiretap",
+        "gradient": ["0XFF8A2387", "0XFFE94057", "0XFFF27121"]
+    },
+    {
+        "name": "Burning Orange",
+        "gradient": ["0XFFFF416C", "0XFFFF4B2B"]
+    },
+    {
+        "name": "Ultra Voilet",
+        "gradient": ["0XFF654ea3", "0XFFeaafc8"]
+    },
+    {
+      "name": "By Design",
+      "gradient": ["0XFF009FFF", "0XFFec2F4B"]
+    },
+    {
+        "name": "Kyoo Tah",
+        "gradient": ["0XFF544a7d", "0XFFffd452"]
+    },
+    {
+        "name": "Kye Meh",
+        "gradient": ["0XFF8360c3", "0XFF2ebf91"]
+    },
+    {
+        "name": "Kyoo Pal",
+        "gradient": ["0XFFdd3e54", "0XFF6be585"]
+    },
+    {
+        "name": "Metapolis",
+        "gradient": ["0XFF659999", "0XFFf4791f"]
+    },
+    {
+        "name": "Flare",
+        "gradient": ["0XFFf12711", "0XFFf5af19"]
+    },
+    {
+        "name": "Witching Hour",
+        "gradient": ["0XFFc31432", "0XFF240b36"]
+    },
+    {
+        "name": "Azur Lane",
+        "gradient": ["0XFF7F7FD5", "0XFF86A8E7", "0XFF91EAE4"]
+    },
+    {
+        "name": "Neuromancer",
+        "gradient": ["0XFFf953c6", "0XFFb91d73"]
+    },
+    {
+        "name": "Harvey",
+        "gradient": ["0XFF1f4037", "0XFF99f2c8"]
+    },
+    {
+        "name": "Amin",
+        "gradient": ["0XFF8E2DE2", "0XFF4A00E0"]
+    },
+    {
+        "name": "Memariani",
+        "gradient": ["0XFFaa4b6b", "0XFF6b6b83" , "0XFF3b8d99"]
+    },
+    {
+        "name": "Yoda",
+        "gradient": ["0XFFFF0099", "0XFF493240"]
+    },
+    {
+        "name": "Cool Sky",
+        "gradient": ["0XFF2980B9", "0XFF6DD5FA", "0XFFFFFFFF"]
+    },
+    {
+        "name": "Dark Ocean",
+        "gradient": ["0XFF373B44", "0XFF4286f4"]
+    },
+    {
+        "name": "Evening Sunshine",
+        "gradient": ["0XFFb92b27", "0XFF1565C0"]
+    },
+    {
+        "name": "JShine",
+        "gradient": ["0XFF12c2e9", "0XFFc471ed", "0XFFf64f59"]
+    },
+    {
+        "name": "Moonlit Asteroid",
+        "gradient": ["0XFF0F2027", "0XFF203A43", "0XFF2C5364"]
+    },
+    {
+        "name": "MegaTron",
+        "gradient": ["0XFFC6FFDD", "0XFFFBD786", "0XFFf7797d"]
+    },
+    {
+        "name": "Cool Blues",
+        "gradient": ["0XFF2193b0", "0XFF6dd5ed"]
+    },
+    { 
+        "name": "Piggy Pink",
+        "gradient": ["0XFFee9ca7", "0XFFffdde1"]
+    },
+    {
+        "name": "Grade Grey",
+        "gradient": ["0XFFbdc3c7","0XFF2c3e50"]
+    },
+    {
+      "name": "Telko",
+      "gradient": ["0XFFF36222", "0XFF5CB644", "0XFF007FC3"]
+    },
+    {
+        "name": "Zenta",
+        "gradient": ["0XFF2A2D3E","0XFFFECB6E"]
+    },
+    {
+        "name": "Electric Peacock",
+        "gradient": ["0XFF8a2be2","0XFF0000cd","0XFF228b22","0XFFccff00"]
+    },
+    {
+        "name": "Under Blue Green",
+        "gradient": ["0XFF051937","0XFF004d7a","0XFF008793","0XFF00bf72","0XFFa8eb12"]
+    },
+    {
+        "name": "Lensod",
+        "gradient": ["0XFF6025F5","0XFFFF5555"]
+    },
+    {
+        "name": "Newspaper",
+        "gradient": ["0XFF8a2be2","0XFFffa500","0XFFf8f8ff"]
+    },
+    {
+      "name": "Dark Blue Gradient",
+      "gradient": ["0XFF2774ae", "0XFF002E5D", "0XFF002E5D"]
+    },
+    {
+        "name": "Dark Blu Two",
+        "gradient": ["0XFF004680","0XFF4484BA"]
+    },
+    {
+        "name": "Lemon Lime",
+        "gradient":["0XFF7ec6bc","0XFFebe717"]
+    },
+    {
+        "name": "Beleko",
+        "gradient": ["0XFFff1e56", "0XFFf9c942", "0XFF1e90ff"]
+    },
+    {
+        "name": "Mango Papaya",
+        "gradient": ["0XFFde8a41","0XFF2ada53"]
+    },
+    {
+        "name": "Unicorn Rainbow",
+        "gradient": ["0XFFf7f0ac","0XFFacf7f0","0XFFf0acf7"]
+    },
+    {
+      "name": "Flame",
+      "gradient": ["0XFFff0000", "0XFFfdcf58"]
+    },
+    {
+        "name": "Blue Red",
+        "gradient": ["0XFF36B1C7", "0XFF960B33"]
+    },
+    {
+        "name" : "Twitter",
+        "gradient" : ["0XFF1DA1F2", "0XFF009ffc"]
+    },
+    {
+        "name": "Blooze",
+        "gradient": ["0XFF6da6be", "0XFF4b859e", "0XFF6da6be"]
+    },
+    {
+        "name": "Blue Slate",
+        "gradient": ["0XFFB5B9FF", "0XFF2B2C49"]
+    },
+    {
+        "name": "Space Light Green",
+        "gradient": ["0XFF9FA0A8", "0XFF5C7852"]
+    },
+    {
+        "name": "Flower",
+        "gradient": ["0XFFDCFFBD", "0XFFCC86D1"]
+    },
+    {
+        "name": "Elate The Euge",
+        "gradient": ["0XFF8BDEDA", "0XFF43ADD0", "0XFF998EE0", "0XFFE17DC2", "0XFFEF9393"]
+    },
+    {
+        "name": "Peach Sea",
+        "gradient": ["0XFFE6AE8C", "0XFFA8CECF"]
+    },
+    {
+        "name": "Abbas",
+        "gradient": ["0XFF00fff0","0XFF0083fe"]
+    },
+    {
+        "name": "Winter Woods",
+        "gradient": ["0XFF333333", "0XFFa2ab58", "0XFFA43931"]
+    },
+    {
+        "name": "Ameena",
+        "gradient": ["0XFF0c0c6d", "0XFFde512b", "0XFF98d0c1", "0XFF5bb226", "0XFF023c0d"]
+    },
+    {
+        "name": "Emerald Sea",
+        "gradient": ["0XFF05386b","0XFF5cdb95"]
+    },
+    {
+        "name": "Bleem",
+        "gradient": ["0XFF4284DB", "0XFF29EAC4"]
+    },
+    {
+        "name": "Coffee Gold",
+        "gradient": ["0XFF554023", "0XFFc99846"]
+    },
+    {
+        "name": "Compass",
+        "gradient": ["0XFF516b8b", "0XFF056b3b"]
+    },
+    {
+        "name": "Andreuzza's",
+        "gradient": ["0XFFD70652", "0XFFFF025E"]
+    },
+    {
+        "name": "Moonwalker",
+        "gradient": ["0XFF152331", "0XFF000000"]
+    },
+    {
+        "name": "Whinehouse",
+        "gradient": ["0XFFf7f7f7", "0XFFb9a0a0", "0XFF794747", "0XFF4e2020", "0XFF111111"]
+    },
+    {
+        "name": "Hyper Blue",
+        "gradient": ["0XFF59CDE9", "0XFF0A2A88"]
+    },
+    {
+        "name": "Racker",
+        "gradient": ["0XFFEB0000","0XFF95008A","0XFF3300FC"]
+    },
+    {
+        "name": "After the Rain",
+        "gradient": ["0XFFff75c3", "0XFFffa647", "0XFFffe83f", "0XFF9fff5b", "0XFF70e2ff", "0XFFcd93ff"]
+    },
+    {
+        "name": "Neon Green",
+        "gradient": ["0XFF81ff8a", "0XFF64965e"]
+    },
+    {
+        "name": "Dusty Grass",
+        "gradient": ["0XFFd4fc79", "0XFF96e6a1"]
+    },
+    {
+        "name": "Visual Blue",
+        "gradient": ["0XFF003d4d", "0XFF00c996"]
+    }
+]
